@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.jpeg">  </a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hidemenu()"></i>
+
+               </i>
+                                <ul>
+                                    <li> <a href="index.html">HOME</a></li>
+                                    <li> <a href="about.html">ABOUT</a></li>
+                                    <li> <a href="mission&vission.html">Vision & Mission</a></li>
+                                    <li> <a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"> </i>
+        </nav>
+        <div>
+            <div class="text-box">
+                <h1> RESUNGA
+                    JAL
+        </h1>
+                <p>
+                    <h2>Not all water is created equal.</h2>
+                    <br>
+                  From the spring water of Himalayan belt, we <br> discoved a unique proccessed drinking <br> water
+                  far away from pollution.
+
+                  
+                </p>
+                <a href="" class="hero-btn" >Visit Us To Know More
+                </a>
+
+            </div>
+
+    </section>
+
+<!--- course -->
+<section class="course">
+    <h1>Products We offer</h1>
+    <div class="row">
+        <div class="col">
+        <h3>Small</h3>
+        <p>we have the small pack of 500ml bottle pack with purest form of water</p>
+        </div>
+        <div class="col">
+            <h3>Big</h3>
+            <p>we have the big pack of 1ltr bottle pack with purest form of water</p>
+            </div>
+            <div class="col">
+                <h3>Large</h3>
+                <p>we have the large pack of 20ltr bottle pack with purest form of water</p>
+                </div>
+    
+    </div>
+
+
+</section>
+
+<!--- Our Company -->
+<section class="company">
+    <h1>Our Company</h1>
+    <p>Humans have been storing and distributing water for centuries. Before, when people lived as hunters/ collectors, river water was applied for drinking water purposes. When people permanently stayed in one place for a long period of time, this was usually near a river or lake. When there were no rivers or lakes in an area, people used groundwater for drinking water purposes. This was pumped up through wells.
+        When the human population started growing extensively, the water supply was no longer sufficient. Drinking water needed to be extracted from a different source.
+        As far back as 500 BC it's believed that the famous Greek scientist, Hippocrates invented the first early water filter… in the form of a cloth bag! This simple device was known as the 'Hippocratic sleeve'. The cloth acted like a sieve to filter out the impurities from the Greek aqueducts.
+    </p>
+    <div class="row">
+        <div class="company-col">
+            <img src="images/images.jpg">
+            <div class="layer">
+                <h3> Cloth</h3>
+            </div>
+        </div>
+        <div class="company-col">
+            <img src="images/download.jpg">
+            <div class="layer">
+    
+                <h3> Stone Spouts</h3>
+            </div>
+        </div>
+        <div class="company-col">
+            <img src="images/image-1.webp">
+            <div class="layer">
+                <h3> Resunga Jal </h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<!--Testimonials-->
+<section class="testimonials">
+    <h1>What Our Clients Says</h1>
+    <p>The water taste has a great potentials to cover the wide range of market in the future</p>
+<div class="row">
+    <div class="testimonials-col">
+        <img src="images/view.JPG">
+        <div>
+        <p> I love the this water very much.</p>
+        <h3> Paul Shah</h3>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-o"></i>
+    </div>
+    </div>
+    <div class="testimonials-col">
+        <img src="images/download.jpg">
+        <div>
+        <p> Wow what a taste it provides being naturally tasteless .</p>
+        <h3> Priyanka Karki</h3>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star"></i>
+        <i class="fa fa-star-half-o"></i>
+    </div>
+    </div>
+</div>
+</section>
+
+<!--Call to action-->
+<section class="cta">
+    <h1>
+        Contact us for our various services
+    </h1>
+    <a href="" class="hero-btn">CONTACT US</a>
+</section>
+
+<!--footer-->
+<section class="footer">
+    <h4> About Us</h4>
+    <p> I am sining now from this website</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fab fa-tiktok"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made With <i class="fa fa-heart-o"> </i> by Resunga Jal Pvt. Ltd.</p>
+</section>
+
+
+    <!--Javascript for Toggle Menu-->
+
+    <script>
+
+    var navLinks =document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right= "0px";
+    }    
+    function hidemenu(){
+        navLinks.style.right= "-200px";
+    }
+    
+    </script>    
+
+</body>
+</html>

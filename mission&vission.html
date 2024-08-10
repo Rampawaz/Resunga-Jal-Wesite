@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.jpeg">  </a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hidemenu()"></i>
+
+               </i>
+                                <ul>
+                                    <li> <a href="index.html">HOME</a></li>
+                                    <li> <a href="about.html">ABOUT</a></li>
+                                    <li> <a href="mission&vission.html">Vision & Mission</a></li>
+                                    <li> <a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"> </i>
+        </nav>
+        <h1> Vission and Mission</h1>
+
+    </section>
+
+    <!------vision and mission--->
+    <section class="vission">
+        <div class="row">
+            <div class="Vission-col">
+                <h1> we are the first in the market of bottled water in gulmi</h1>
+                <p>hello how are you doing this dayasddshdakdaskdasdkskhsfhhfksamvbmbmbmbmbsb</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="vission-col">
+                <img src="images/banner2.jpg">
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+<!--footer-->
+<section class="footer">
+    <h4> About Us</h4>
+    <p> I am sining now from this website</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fab fa-tiktok"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made With <i class="fa fa-heart-o"> </i> by Resunga Jal Pvt. Ltd.</p>
+</section>
+
+
+    <!--Javascript for Toggle Menu-->
+
+    <script>
+
+    var navLinks =document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right= "0px";
+    }    
+    function hidemenu(){
+        navLinks.style.right= "-200px";
+    }
+    
+    </script>    
+
+</body>
+</html>

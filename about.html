@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo1.jpeg">  </a>
+            <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hidemenu()"></i>
+
+               </i>
+                                <ul>
+                                    <li> <a href="index.html">HOME</a></li>
+                                    <li> <a href="about.html">ABOUT</a></li>
+                                    <li> <a href="mission&vission.html">Vision & Mission</a></li>
+                                    <li> <a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"> </i>
+        </nav>
+        <h1> About Us
+            <p>
+                Resunga Jal Pvt. Ltd. is dedicated to providing pure and refreshing spring water<br>
+                to its costumers, ensuring that
+                 every bottles meets stringent quality standards. <br>
+                 With a focus on efficiency and precision, the company 
+                 utilizes cutting-edge <br>equipment and processes to deliver products that surpass expectations.
+
+            </p>
+        </h1>
+
+    </section>
+
+    <!------about us content--->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1> Introduction
+                </h1>
+                <p>Resunga Jal Private Limited is a proposed company registered under companies Act-2063,
+                     for production and sale of proccessed drinking water in Nepal, a venture by 
+                     young experts, potential investors and other stakeholders with aim of producing 
+                     high quality , affordable product which will contribute to improved drinking water 
+                     and realization of direct and indirect economic benifits to the country. The company
+                    has been established with an aim to fulfill the gap of demand and supply of fresh and 
+                quatlity drinking water in Nepal.The project is based on Resuga Municipality,ward no.3,
+                Tamghas,Gulmi District.The location of the project has been stragically chosen with thd proper
+            study of the vaibility of the project and the technical analysis of the resources.
+        This project is startup by young , dynamic , and highly energetic entrepreneurs.
+    The project is commited on supplying quality drinking water with high focus on health, safety, and price.
+Resunga Jal Pvt. Ltd. is a leading producer of high-quality bottled water, offering a range of sizes including 500ml,1000ml and 20000ml bottles.
+With a state-of-art- semi-automatic plant,the company combines the best technological advancement with a commitment to excellence.</p>
+                <a target="_blank" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="images/images.jpg">
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+<!--footer-->
+<section class="footer">
+    <p> I am sining now from this website</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fab fa-tiktok"></i>
+        <i class="fa fa-instagram"></i>
+    </div>
+    <p>Made With <i class="fa fa-heart-o"> </i> by Resunga Jal Pvt. Ltd.</p>
+</section>
+
+
+    <!--Javascript for Toggle Menu-->
+
+    <script>
+
+    var navLinks =document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right= "0px";
+    }    
+    function hidemenu(){
+        navLinks.style.right= "-200px";
+    }
+    
+    </script>    
+
+</body>
+</html>
