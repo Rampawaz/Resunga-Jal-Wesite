@@ -1,9 +1,9 @@
 <?php
-if{(isset($_POST['submit']))
-$name = $_POST['name'];
-$Visitor_email = $_POST['email'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
+if{(isset($_get['submit']))
+$name = $_get['name'];
+$Visitor_email = $_get['email'];
+$subject = $_get['subject'];
+$message = $_get['message'];
 
 $email_from= "info@resungajal.com.np";
 
