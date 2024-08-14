@@ -1,4 +1,5 @@
 <?php
+if{(isset($_POST['submit']))
 $name = $_POST['name'];
 $Visitor_email = $_POST['email'];
 $subject = $_POST['subject'];
@@ -13,7 +14,6 @@ $email_body ="User Name: $name. \n".
 "Subject: $subject. \n".
 "User Message: $message. \n";
 
-$to ='jalresunga@gmail.com';
  $header ="From: $email_from \r\n";
 
  $header .= "Reply-To: $visitor_email \r\n";
@@ -21,7 +21,7 @@ $to ='jalresunga@gmail.com';
  mail($to,$email_subject,$email_body,$headers);
 
  header ("Location: contact.html")
-
+}
 
 
 
