@@ -13,7 +13,7 @@ $email_body ="User Name: $name. \n".
 "Subject: $subject. \n".
 "User Message: $message. \n";
 
-$to ="jalresunga.com";
+$to ="jalresunga@gmail.com";
  $header ="From: $email_from \r\n";
 
  $header .= "Reply-To: $visitor_email \r\n";
