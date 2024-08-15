@@ -384,6 +384,7 @@ p{
     color: #f44336;
     margin: 10px;
     margin-right: 30px;
+    text-rendering: auto;
 }
 .contact-col div p{
     padding: 0;
