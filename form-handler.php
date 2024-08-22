@@ -1,9 +1,9 @@
 <?php
 
-$name = $_GET['name'];
-$Visitor_email = $_GET['email'];
-$subject = $_GET['subject'];
-$message = $_GET['message'];
+$name = $_POST['name'];
+$Visitor_email = $_POST['email'];
+$subject = $_POST['subject'];
+$message = $_POST['message'];
 
 $email_from= 'info@resungajal.com.np';
 
