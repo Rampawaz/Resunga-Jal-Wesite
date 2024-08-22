@@ -5,7 +5,8 @@ $Visitor_email = $_GET['email'];
 $subject = $_GET['subject'];
 $message = $_GET['message'];
 
-$email_from= 'info@resungajal.com.np':
+$email_from= 'info@resungajal.com.np';
+
 $email_subject= 'New Form Submission';
 
 $email_body ="User Name: $name. \n".
